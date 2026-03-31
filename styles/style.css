@@ -9,6 +9,13 @@
 
 /* common tags 
 =============== */
+.common-section {
+    width: 1120px;
+    height: 550px;
+    margin: 30px auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
 .common-style-1 {
     font-family: "Merriweather", serif;
     color: #fff;
@@ -22,10 +29,6 @@
 /* header styles 
 ================ */
 .header {
-    width: 1120px;
-    height: 550px;
-    margin: 30px auto;
-    border-radius: 10px 10px 10px 10px;
     background: linear-gradient(180deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,4 +92,55 @@
     font-size: 24px;
     color: #070211;
     font-weight: 700;
+}
+
+/* welcome styles 
+================== */
+
+.welcome-section {
+    background: linear-gradient(110deg, rgb(16, 16, 16)-19.5%, rgba(0, 0, 0, 0) 100%), url('../images/Vectorrr.png');
+    /* background-image: ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.welcome-container {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.welcome-title {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 10%;
+    line-height: 60px;
+}
+
+.welcome-description {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.join-btn {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.welcome-img {
+    width: 100%;
+    text-align: right;
+}
+
+.welcome-img img {
+    margin-top: 40px;
 }
