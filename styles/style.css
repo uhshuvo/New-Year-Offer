@@ -9,9 +9,14 @@
 
 /* common tags 
 =============== */
-.common-style {
+.common-style-1 {
     font-family: "Merriweather", serif;
     color: #fff;
+}
+
+.common-style-2 {
+    font-family: "Inter", sans-serif;
+    color: #FF0000;
 }
 
 /* header styles 
@@ -47,4 +52,41 @@
 .header-title {
     font-size: 50px;
     line-height: 60px;
+}
+
+/* all category styles 
+====================== */
+.all-category-section {
+    width: 680px;
+    height: 650px;
+    margin: 80px auto;
+}
+
+.category-box {
+    text-align: center;
+    line-height: 0px;
+}
+
+.category-offer {
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.category-subtitle {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.category-img img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.category-title {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: #070211;
+    font-weight: 700;
 }
