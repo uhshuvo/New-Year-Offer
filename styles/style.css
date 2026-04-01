@@ -251,3 +251,59 @@
     font-size: 15px;
     margin-bottom: 30px;
 }
+
+/* blog offer styles 
+==================== */
+
+.blog-offer-section {
+    /* background-color: rgb(203, 192, 192); */
+    width: 1120px;
+    height: 780px;
+    margin: 30px auto;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 10px 10px;
+}
+
+.blog-offer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-offer-articles {
+    max-width: 630px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.offer-images {
+    display: flex;
+}
+
+.offer-images {
+    width: 100%;
+}
+
+.img-1 img {
+    width: 80%;
+}
+
+.blog-offer-subtitles {
+    font-size: 14px;
+    font-weight: 600;
+    color: #070211;
+}
+
+.blog-offer-title {
+    font-size: 50px;
+    line-height: 10px;
+}
+
+.blog-offer-description {
+    font-size: 15px;
+    color: #070211;
+}
