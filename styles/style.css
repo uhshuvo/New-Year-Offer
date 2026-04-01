@@ -16,19 +16,18 @@
     border-radius: 10px 10px 10px 10px;
 }
 
-.common-style-1 {
+.common-font-1 {
     font-family: "Merriweather", serif;
-    color: #fff;
 }
 
-.common-style-2 {
+.common-font-2 {
     font-family: "Inter", sans-serif;
+}
+
+.common-color {
     color: #FF0000;
 }
 
-.span {
-    color: #FF0000;
-}
 
 /* header styles 
 ================ */
@@ -47,6 +46,7 @@
     width: 450px;
     height: 150px;
     text-align: center;
+    color: #fff;
 }
 
 .header-subtitle {
@@ -124,6 +124,7 @@
     font-weight: 700;
     letter-spacing: 10%;
     line-height: 60px;
+    color: #fff;
 }
 
 .welcome-description {
@@ -185,4 +186,68 @@
     background-color: #FF0000;
     border: none;
     border-radius: 3px;
+}
+
+/* blog-section-2 styles
+======================== */
+.blog-section-2 {
+    width: 1120px;
+    height: 400px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+.blog-container {
+    display: flex;
+    align-items: center;
+}
+
+.blog-article {
+    max-width: 373px;
+}
+
+.blog-subtitle {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #FF0000;
+    font-weight: 500;
+}
+
+.blog-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.blog-description {
+    opacity: 100%;
+    font-size: 15px;
+    color: #070211;
+}
+
+.blog-banner-img {
+    max-width: 373px;
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 30px 0 10px
+}
+
+.blog-banner-img img {
+    width: 100%;
+
+}
+
+.blog-new-year {
+    max-width: 373px;
+}
+
+.new-year-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.new-year-description {
+    font-size: 15px;
+    margin-bottom: 30px;
 }
