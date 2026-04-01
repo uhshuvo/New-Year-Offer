@@ -307,3 +307,41 @@
     font-size: 15px;
     color: #070211;
 }
+
+
+/* fashion styles 
+================= */
+.fashion-box {
+    width: 1120px;
+    height: 780px;
+    margin: 30px auto;
+}
+
+.fashion-grid {
+    width: 100%;
+}
+
+.fashion-articles {
+    width: 650px;
+    line-height: 20px;
+}
+
+.fashion-grid img {
+    width: 33%;
+    gap: 10px;
+}
+
+.fashion-subtitle {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.fashion-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.fashion-description {
+    font-size: 15px;
+    opacity: 100%;
+}
