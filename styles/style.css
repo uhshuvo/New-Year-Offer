@@ -6,6 +6,9 @@
 /* font-family: "Merriweather", serif; */
 /* font-family: "Inter", sans-serif; */
 
+* {
+    margin: 0;
+}
 
 /* common tags 
 =============== */
@@ -53,7 +56,7 @@
     font-size: 19px;
     font-weight: 400;
     letter-spacing: 6%;
-    line-height: 10px;
+    margin-bottom: 20px;
 }
 
 .header-title {
@@ -65,7 +68,7 @@
 ====================== */
 .all-category-section {
     width: 680px;
-    height: 650px;
+    height: 550px;
     margin: 80px auto;
 }
 
@@ -77,13 +80,15 @@
 .category-offer {
     font-size: 50px;
     font-weight: 700;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
+    margin-bottom: 60px;
 }
 
 .category-subtitle {
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .category-img img {
@@ -96,6 +101,7 @@
     font-size: 24px;
     color: #070211;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 /* welcome styles 
@@ -125,6 +131,7 @@
     letter-spacing: 10%;
     line-height: 60px;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .welcome-description {
@@ -132,6 +139,7 @@
     font-size: 14px;
     line-height: 20px;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .join-btn {
@@ -173,12 +181,13 @@
 
 .article-common-size {
     font-size: 25px;
-    line-height: 5px;
+    line-height: 40px;
     color: #070211;
     font-weight: 600;
 }
 
 .btn {
+    margin-top: 20px;
     font-family: "Inter", sans-serif;
     padding: 10px 20px 10px 20px;
     color: #fff;
@@ -196,6 +205,7 @@
     margin: 30px auto;
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .blog-container {
@@ -212,11 +222,13 @@
     font-family: "Inter", sans-serif;
     color: #FF0000;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .blog-title {
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .blog-description {
@@ -235,7 +247,6 @@
 
 .blog-banner-img img {
     width: 100%;
-
 }
 
 .blog-new-year {
@@ -245,6 +256,7 @@
 .new-year-title {
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .new-year-description {
@@ -296,11 +308,13 @@
     font-size: 14px;
     font-weight: 600;
     color: #070211;
+    margin-bottom: 50px;
 }
 
 .blog-offer-title {
     font-size: 50px;
     line-height: 10px;
+    margin-bottom: 35px;
 }
 
 .blog-offer-description {
@@ -316,6 +330,7 @@
     /* height: 780px; */
     margin: 30px auto;
     margin-top: 70px;
+    margin-bottom: 50px;
 }
 
 .fashion-grid {
@@ -324,7 +339,6 @@
 
 .fashion-articles {
     width: 650px;
-    line-height: 20px;
     margin-bottom: 40px;
 }
 
@@ -336,11 +350,13 @@
 .fashion-subtitle {
     font-size: 15px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .fashion-title {
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .fashion-description {
@@ -372,12 +388,14 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 20px;
+    margin: 30px;
 }
 
 .newsletter-describe {
     opacity: 100%;
     font-size: 14px;
     font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .form-box input[type='text'] {
@@ -396,4 +414,13 @@
     font-weight: 700;
     border: none;
     border-radius: 0 30px 30px 0;
+}
+
+/* footer styles 
+================ */
+footer {
+    background-color: #070211;
+    height: 600px;
+    margin: 0;
+    padding: 0;
 }
